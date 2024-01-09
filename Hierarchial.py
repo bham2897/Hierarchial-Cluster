@@ -58,19 +58,6 @@ plt.legend(handles=legend_elements, loc='upper right')
 
 plt.show()
 
-# clustering = AgglomerativeClustering(distance_threshold=0, n_clusters=None)
-# clustering.fit(reduced_data)
-
-# # Plot the dendrogram for visualization
-# plt.figure(figsize=(10, 7))
-# plot_dendrogram(clustering, truncate_mode='level', p=3)
-# plt.title("Dendrogram for the Hierarchical Clustering")
-# plt.xlabel("Number of points in node (or index of point if no parenthesis)")
-# plt.ylabel("Distance")
-# plt.show()
-
-
-
 # Choose the number of clusters based on the dendrogram
 num_clusters = 3  #based on dendrogram analysis
 
