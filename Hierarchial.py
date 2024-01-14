@@ -9,7 +9,7 @@ import numpy as np
 from matplotlib.lines import Line2D
 
 # Load the dataset
-file_path = '/Users/divya/Desktop/ DAPM Charts /Final_Preprocessed_data.csv'  # Replace with your actual file path
+file_path = '/Users/divya/Desktop/ DAPM Charts /Final_Preprocessed_data.csv'  
 data = pd.read_csv(file_path)
 
 # Drop categorical columns for clustering
